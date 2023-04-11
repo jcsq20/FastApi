@@ -7,7 +7,7 @@ app = FastAPI()
 class Pets(BaseModel):
     name: str
     age: int
-    address: str | None = None
+    address: str = None
     price: float
     skills: List[str] = []
 
